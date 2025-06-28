@@ -70,6 +70,44 @@ Reactive programming changes how we build modern apps — making them **non-bloc
 📄 **Medium Article** — [Fundamentals of Reactive Programming — Phase 1, Module 1: Introduction to Reactive Thinking](https://medium.com/stackademic/fundamentals-of-reactive-programming-phase-1-module-1-introduction-to-reactive-thinking-0c4846044524)  
 🎥 **YouTube Video** — [Reactive Programming with Project Reactor – Introduction to Reactive Thinking](https://www.youtube.com/watch?v=hwGfvoCCmpI&list=PLm17Av_kNv7OqVVMMhi3AosXWGJ_eOprJ)
 
+---
+
+# Fundamentals of Reactive Programming - Phase 1 · Module 2: Push vs Pull — Data Flow Paradigms
+
+![Push vs Pull — Data Flow Paradigms](https://github.com/user-attachments/assets/92b164a0-bd90-4a28-9a2e-705a6025eff9)
+
+
+Understanding how data flows through a system is fundamental to mastering reactive programming.  
+This module introduces the two core paradigms of data flow:
+
+- **Pull-based**: Consumers request data when they are ready.  
+- **Push-based**: Producers emit data whenever it becomes available.
+
+You’ll explore how these models differ, and why **Reactive Streams** adopt a push-pull hybrid approach to support **backpressure**.
+
+
+## 🔧 Key Takeaways
+
+- What is pull-based vs push-based data flow
+- Why push dominates in reactive systems
+- Introduction to backpressure and demand signals
+- Project Reactor’s role in managing flow control
+
+## 🛠️ When to Use
+
+- You need to handle unpredictable data rates from external systems  
+- Your consumers must control how much data they receive  
+- You're building systems with streaming or async event sources
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase1_fundamentals/module2_pushpull)
+
+## 📚 Learn More  
+📄 **Medium Article** — [Fundamentals of Reactive Programming — Phase 1, Module 2: Push vs Pull — Data Flow Paradigms
+](https://blog.stackademic.com/fundamentals-of-reactive-programming-phase-1-module-2-push-vs-pull-data-flow-paradigms-d2d1b02d33df)
+
+🎥 **YouTube Video** — [Reactive Programming with Project Reactor – Push vs Pull — Data Flow Paradigms](https://www.youtube.com/watch?v=pGs3dFI9hBo&list=PLm17Av_kNv7OqVVMMhi3AosXWGJ_eOprJ&index=2)
+
 
 
 
