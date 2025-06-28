@@ -144,8 +144,102 @@ These rules ensure systems are **robust**, **efficient**, and **predictable** �
 
 🎥 **YouTube Video** — Coming soon
 
+---
+
+# Fundamentals of Reactive Programming - Phase 1 · Module 4: Core Reactive Concepts & Behavior
+
+![Core Reactive Concepts   Behavior](https://github.com/user-attachments/assets/8a7c79b8-7b8b-4106-8aa7-2d21ab4e9358)
 
 
+Reactive programming is more than just async data — it's about building systems that are **efficient**, **responsive**, and **resilient**.  
+This module dives into three core behavioral concepts that define how reactive streams behave in real-world scenarios.
+
+## 🔧 Key Takeaways
+
+- **Lazy evaluation**: execution happens only when subscribed  
+- **Cold vs Hot publishers**: replay vs live-only data sources  
+- **Backpressure**: managing flow between producers and consumers
+
+## 🛠️ When to Use
+
+- You're debugging unexpected behavior in reactive chains  
+- You need precise control over data emissions and subscriptions  
+- You're building systems where consumer speed may vary
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase1_fundamentals/module4_core_concepts)
+
+## 📚 Learn More  
+📄 **Medium Article** — [Fundamentals of Reactive Programming — Phase 1, Module 4: Core Reactive Concepts & Behavior](https://blog.stackademic.com/fundamentals-of-reactive-programming-phase-1-module-4-core-reactive-concepts-behavior-c6b0950b496d)
+
+🎥 **YouTube Video** — Coming soon
+
+---
+
+# Fundamentals of Reactive Programming - Phase 1 · Module 5: Reactive Error Handling and Termination
+
+![Reactive Error Handling and Termination](https://github.com/user-attachments/assets/71c8e93f-646f-4acf-acfb-641f33eb6b8b)
 
 
+In reactive programming, **error handling is a first-class citizen**.  
+Unlike imperative code, reactive streams treat errors as terminal signals (`onError`), and they must be handled without breaking the data flow.
+
+This module explores how to manage errors in a **resilient** and **composable** way using Reactor's built-in strategies.
+
+## 🔧 Key Takeaways
+
+- Error as a signal: `onError` as part of the stream lifecycle  
+- Design principles for non-blocking error handling  
+- Fallback strategies: `onErrorResume`, `onErrorReturn`, `retry`  
+- Side-effect hooks: `doOnError`, `doFinally`, `doOnTerminate`
+
+
+## 🛠️ When to Use
+
+- You need reliable error recovery in async pipelines  
+- You're building fault-tolerant or user-facing reactive services  
+- You want to add logging, metrics, or retries without side effects
+
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase1_fundamentals/module5_error_handling)
+
+
+## 📚 Learn More  
+📄 **Medium Article** — [Fundamentals of Reactive Programming — Phase 1, Module 5: Reactive Error Handling and Termination](https://blog.stackademic.com/fundamentals-of-reactive-programming-phase-1-module-5-reactive-error-handling-and-termination-3fff2ab23f76)  
+
+🎥 **YouTube Video** — Coming soon
+
+---
+
+# Fundamentals of Reactive Programming - Phase 1 · Module 6: Data Pipelines and Functional Composition
+
+![Data Pipelines and Functional Composition](https://github.com/user-attachments/assets/ed4bc6b6-8145-4a4e-b4c1-dadcc18fa426)
+
+
+Reactive programming shines when building **clean, declarative data pipelines** for asynchronous streams.  
+In this module, you'll learn how to use functional operators to write expressive, readable, and safe reactive code.
+
+We'll explore the building blocks of transformation and composition — and why **immutability** and **no side effects** are key to reliable stream behavior.
+
+## 🔧 Key Takeaways
+
+- Core operators: `map`, `filter`, `reduce`, `flatMap`  
+- Chaining transformations in a readable pipeline  
+- Importance of immutability and stateless operations  
+- Why side effects (e.g., logging, DB calls) should stay out of pipelines
+
+## 🛠️ When to Use
+
+- You're transforming or filtering async data  
+- You want to write clean, testable, and declarative reactive code  
+- You’re building complex flows that must remain predictable
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase1_fundamentals/module6_data_pipelines)
+
+## 📚 Learn More  
+📄 **Medium Article** — [Fundamentals of Reactive Programming — Phase 1, Module 6: Data Pipelines and Functional Composition](https://medium.com/@luisfernandosalasg/fundamentals-of-reactive-programming-phase-1-module-6-data-pipelines-and-functional-composition-5d7ef4fee8ad) 
+ 
+🎥 **YouTube Video** — Coming soon
 
