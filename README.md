@@ -108,6 +108,41 @@ You’ll explore how these models differ, and why **Reactive Streams** adopt a p
 
 🎥 **YouTube Video** — [Reactive Programming with Project Reactor – Push vs Pull — Data Flow Paradigms](https://www.youtube.com/watch?v=pGs3dFI9hBo&list=PLm17Av_kNv7OqVVMMhi3AosXWGJ_eOprJ&index=2)
 
+---
+
+# Fundamentals of Reactive Programming - Phase 1 · Module 3: The Reactive Streams Specification
+
+![The Reactive Streams Specification](https://github.com/user-attachments/assets/7d9ed34b-a9fb-4eec-80fd-35aed0a4782e)
+
+Reactive Streams is the standard for handling **asynchronous data streams with non-blocking backpressure**.  
+It defines a minimal set of interfaces and rules that govern how data flows between publishers and subscribers.
+
+These rules ensure systems are **robust**, **efficient**, and **predictable** — even under high load.
+
+
+## 🔧 Key Takeaways
+
+- Core interfaces: `Publisher`, `Subscriber`, `Subscription`, `Processor`
+- How the signal lifecycle works: `onNext`, `onError`, `onComplete`
+- The 4 key Reactive Streams rules (spec compliance)
+- What can go wrong when the contract is violated
+
+
+## 🛠️ When to Use
+
+- You need to build or integrate with libraries that rely on reactive backpressure  
+- You're implementing custom publishers/subscribers  
+- You want full control and visibility into data flow behaviors
+
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase1_fundamentals/module3_reactive_streams_spec)
+
+
+## 📚 Learn More  
+📄 **Medium Article** — [Fundamentals of Reactive Programming — Phase 1, Module 3: The Reactive Streams Specification](https://blog.stackademic.com/fundamentals-of-reactive-programming-phase-1-module-3-the-reactive-streams-specification-3743756b49e7)
+
+🎥 **YouTube Video** — Coming soon
 
 
 
