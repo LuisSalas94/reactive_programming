@@ -10,7 +10,7 @@ public class CustomerSubscriber implements Flow.Subscriber<String> {
 
     @Override
     public void onSubscribe(Flow.Subscription subscription) {
-        System.out.println("[Customer] Subscribed. Sending order for " + dishesToConsume + " dishes.");
+        System.out.println("[Customer] Subscribed. Sending order for " + dishesToConsume + " dishes. ");
         this.subscription = subscription;
         // Customer places the order (demands items)
         subscription.request(dishesToConsume);
