@@ -243,3 +243,174 @@ We'll explore the building blocks of transformation and composition — and why 
  
 🎥 **YouTube Video** — Coming soon
 
+---
+
+# Core Project Reactor: Mono and Flux - Phase 2 · Module 1: Understanding Mono and Flux
+
+![Understanding Mono and Flux](https://github.com/user-attachments/assets/e705d46a-9140-4cf1-bee2-661b0318a25c)
+
+
+In Project Reactor, everything starts with **`Mono` and `Flux`** — the two core types for representing asynchronous data.
+
+- `Mono`: 0 or 1 item  
+- `Flux`: 0 to N items  
+
+This module introduces how these types work, when to use them, and why they’re essential for building **robust**, **non-blocking**, and **composable** reactive pipelines.
+
+## 🔧 Key Takeaways
+
+- What are `Mono` and `Flux`, and how do they differ?  
+- Choosing the right type for your use case  
+- Creating, subscribing to, and transforming streams  
+- Common pitfalls and anti-patterns when using them
+
+## 🛠️ When to Use
+
+- You're modeling single vs multiple asynchronous values  
+- You need to wrap external calls (HTTP, DB, etc.) reactively  
+- You’re building services that return live or finite data streams
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase2_core_reactor/module1_mono_flux)
+
+
+## 📚 Learn More  
+📄 **Medium Article** — [Core Project Reactor: Mono and Flux — Phase 2, Module 1: Understanding Mono and Flux](https://medium.com/@luisfernandosalasg/core-project-reactor-mono-and-flux-phase-2-module-1-understanding-mono-and-flux-20c1ecd0d33b)
+  
+🎥 **YouTube Video** — Coming soon
+
+---
+
+# Core Project Reactor: Mono and Flux - Phase 2 · Module 2: Operators Overview
+
+![Operators Overview](https://github.com/user-attachments/assets/40daabb7-08a2-4b02-ad46-14fc5e011f8c)
+
+
+Operators are the core tools for **building and shaping reactive pipelines**.  
+Once you understand `Mono` and `Flux`, the next step is learning how to **transform**, **combine**, and **react** to data using Reactor's rich operator set.
+
+With operators, you can compose logic **declaratively and non-blockingly**, maintaining full control over your stream's behavior.
+
+## 🔧 Key Takeaways
+
+- Categories of operators: transformation, filtering, combination, lifecycle  
+- How operators modify data flow and signal handling  
+- Chaining operators to build readable, functional pipelines  
+- Best practices for using side-effect and terminal operators
+
+## 🛠️ When to Use
+
+- You're processing, transforming, or merging async data  
+- You want to write fluent, expressive pipelines  
+- You're handling stream completion, errors, or retries reactively
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase2_core_reactor/module2_operators_overview)
+
+## 📚 Learn More  
+📄 **Medium Article** — [Core Project Reactor: Mono and Flux — Phase 2, Module 2: Operators Overview](https://medium.com/@luisfernandosalasg/core-project-reactor-mono-and-flux-phase-2-module-2-operators-overview-336cfd315882)
+ 
+🎥 **YouTube Video** — Coming soon
+
+---
+
+# Core Project Reactor: Mono and Flux - Phase 2 · Module 3: Handling Sequence Transformations
+
+![Handling Sequence Transformations](https://github.com/user-attachments/assets/0c3af486-ee92-47ed-b3f7-fb2dc2b44278)
+
+
+Building responsive and predictable reactive systems means mastering **sequence transformation operators** — especially `flatMap`, `concatMap`, and `zip`.
+
+These operators let you control how data is **processed**, **merged**, and **ordered** across asynchronous streams — with big impacts on concurrency and output behavior.
+
+This module uses simulated book data to explore real-world scenarios and trade-offs.
+
+## 🔧 Key Takeaways
+
+- Differences between `flatMap`, `concatMap`, and `zip`  
+- How transformations impact concurrency and ordering  
+- Choosing the right operator based on use case  
+- Safely combining multiple streams in reactive flows
+
+## 🛠️ When to Use
+
+- You’re merging multiple async sources or nested streams  
+- You need control over execution order or parallelism  
+- You’re building complex, multi-step pipelines
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase2_core_reactor/module3_sequence_transformations)
+
+## 📚 Learn More  
+📄 **Medium Article** — [Core Project Reactor: Mono and Flux — Phase 2, Module 3: Handling Sequence Transformations](https://medium.com/@luisfernandosalasg/core-project-reactor-mono-and-flux-phase-2-module-3-handling-sequence-transformations-80c937e400cb)
+  
+🎥 **YouTube Video** — Coming soon
+
+---
+
+# Core Project Reactor: Mono and Flux - Phase 2 · Module 4: Creating Dynamic Data Streams
+
+![Creating Dynamic Data Streams](https://github.com/user-attachments/assets/cb58df30-174b-4a2a-9312-b4d382bc6854)
+
+Real-world reactive apps deal with **dynamic, unpredictable data** — from user input and events to paginated APIs and sensor feeds.  
+In these cases, `Flux.just()` or `Flux.fromIterable()` won’t cut it.
+
+This module introduces two powerful operators for generating data programmatically:  
+**`Flux.generate()`** and **`Flux.create()`** — giving you full control over **how**, **when**, and **what** gets emitted.
+
+## 🔧 Key Takeaways
+
+- Differences between `generate()` (sync, one-by-one) and `create()` (async, multi-item)  
+- Emitting dynamic or on-demand data into a reactive stream  
+- Managing state, callbacks, and backpressure manually  
+- Practical use cases: live input, paginated responses, event emitters
+
+## 🛠️ When to Use
+
+- You need to push data into a stream programmatically  
+- You're modeling live, event-driven, or request-driven sources  
+- You want fine-grained control over stream behavior
+
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase2_core_reactor/module4_dynamic_streams)
+
+
+## 📚 Learn More  
+📄 **Medium Article** — [Core Project Reactor: Mono and Flux — Phase 2, Module 4: Creating Dynamic Data Streams](https://medium.com/@luisfernandosalasg/core-project-reactor-mono-and-flux-phase-2-module-4-creating-dynamic-data-streams-7954f34a6fca)
+  
+🎥 **YouTube Video** — Coming soon
+
+---
+
+# Core Project Reactor: Mono and Flux - Phase 2 · Module 5: Testing Reactive Pipelines with StepVerifier
+
+![Testing Reactive Pipelines with StepVerifier](https://github.com/user-attachments/assets/d05ec324-9b37-4e34-9abf-96bf378c78ad)
+
+
+Reactive streams are powerful — but testing them can be tricky.  
+Traditional testing tools don’t easily capture **emission timing**, **ordering**, or **error signals** in async pipelines.
+
+This module introduces **StepVerifier**, part of Reactor’s test toolkit. It offers a **declarative, fluent API** to test `Mono` and `Flux` streams with precision — making it easy to assert exactly what happens, and when.
+
+## 🔧 Key Takeaways
+
+- Why traditional tests fall short for reactive flows  
+- Introduction to `StepVerifier` and its fluent testing syntax  
+- Validating emissions, completion, errors, and timing  
+- Writing safe, readable, and robust reactive tests
+
+## 🛠️ When to Use
+
+- You’re testing complex or multi-step reactive sequences  
+- You need to assert signal order, timing, or errors  
+- You're building reactive libraries, services, or pipelines
+
+## 📂 See the Java Implementation  
+👉 [View code on GitHub](https://github.com/LuisSalas94/reactive_programming/tree/main/src/main/java/org/fernando/phase2_core_reactor/module5_stepverifier)
+
+## 📚 Learn More  
+📄 **Medium Article** — [Core Project Reactor: Mono and Flux — Phase 2, Module 5: Testing Reactive Pipelines with StepVerifier](https://medium.com/@luisfernandosalasg/core-project-reactor-mono-and-flux-phase-2-module-5-testing-reactive-pipelines-with-25d33c72b097)
+  
+🎥 **YouTube Video** — Coming soon
+
