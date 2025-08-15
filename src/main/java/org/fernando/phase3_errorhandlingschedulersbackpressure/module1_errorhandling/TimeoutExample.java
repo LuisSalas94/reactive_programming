@@ -1,4 +1,4 @@
-package org.fernando.phase3_errorhandlingschedulersbackpressure.module1;
+package org.fernando.phase3_errorhandlingschedulersbackpressure.module1_errorhandling;
 
 import reactor.core.publisher.Mono;
 
